@@ -87,6 +87,3 @@ Toutes les données mesurées ainsi que les alertes générées sont stockées d
 ## Conclusion
 
 Le dashboard local constitue une solution fiable et autonome pour la supervision des paramètres agricoles, garantissant la continuité du service et la visualisation en temps réel, même dans des zones rurales sans Internet stable.
-
-
-Veux‑tu que je fasse ça ?
