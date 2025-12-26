@@ -14,7 +14,7 @@ Cette approche garantit une utilisation simple, intuitive et autonome du systèm
 
 ## Interface d’accueil et d’authentification
 
-![Interface d’accueil et d’authentification locale](images/home.png)
+
 
 L’interface d’accueil constitue le point d’entrée de l’application. Elle permet à l’utilisateur de se connecter avec ses identifiants ou d’accéder à la page d’inscription avant d’entrer dans le tableau de bord principal.
 
@@ -22,7 +22,7 @@ L’interface d’accueil constitue le point d’entrée de l’application. Ell
 
 ## Cartes dynamiques des capteurs
 
-![Cartes dynamiques affichant les valeurs instantanées des capteurs](images/values_updates_dashboard.png)
+
 
 Le tableau de bord principal affiche les mesures des capteurs sous forme de cartes dynamiques avec icônes. Chaque carte présente la valeur instantanée d’un paramètre environnemental (température, humidité, luminosité, flamme et humidité du sol).
 
@@ -32,7 +32,7 @@ Les valeurs sont comparées à des **seuils prédéfinis** pour indiquer visuell
 
 ## Visualisation graphique en temps réel
 
-![Graphique détaillé avec fonction de zoom](images/graphe.png)
+
 
 Les données des capteurs sont représentées sous forme de graphiques en temps réel grâce à la bibliothèque `Recharts`. Les valeurs sont mises à jour automatiquement toutes les quelques secondes, simulant un flux de données temps réel.
 
@@ -42,7 +42,6 @@ Une fonctionnalité de **zoom en plein écran** permet d’analyser finement l�
 
 ## Gestion des alertes
 
-![Panneau d’alertes générées lors du dépassement des seuils](images/alerte.png)
 
 Lorsque les valeurs mesurées dépassent les seuils critiques, des alertes sont automatiquement générées et affichées dans un panneau dédié pour attirer immédiatement l’attention de l’utilisateur.
 
@@ -50,7 +49,7 @@ Lorsque les valeurs mesurées dépassent les seuils critiques, des alertes sont 
 
 ## Notification par courrier électronique
 
-![Email de notification envoyé lors d’une alerte critique](images/email.png)
+
 
 En complément de l’affichage local, le système envoie automatiquement des notifications par email en cas d’alerte critique, permettant d’informer l’utilisateur même lorsqu’il n’est pas connecté à l’interface web.
 
@@ -58,7 +57,6 @@ En complément de l’affichage local, le système envoie automatiquement des no
 
 ## Stockage et historique des données
 
-![Historique des données et des alertes stocké dans Firebase Firestore](images/firebase.png)
 
 Toutes les données mesurées ainsi que les alertes générées sont stockées dans la base de données **Firebase Firestore**, permettant la consultation de l’historique, la traçabilité des événements et l’exploitation ultérieure des données pour des analyses avancées.
 
@@ -67,7 +65,6 @@ Toutes les données mesurées ainsi que les alertes générées sont stockées d
 ## Démo Vidéo / GIF
 
 
-![Démo du dashboard](assets/demo.gif)
 
 
 
